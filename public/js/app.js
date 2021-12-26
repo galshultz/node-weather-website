@@ -20,7 +20,6 @@ weatherForm.addEventListener('submit', (e) => {
                 console.log(data.forecest)
                 messageOne.textContent = data.location 
                 messageTwo.textContent = data.forecest
-
             }
         })
     })
